@@ -1,0 +1,27 @@
+{
+  "name": "drex-cli",
+  "version": "0.1.1",
+  "description": "Drex自用脚手架",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "drex-cli": "./index.js"
+  },
+  "author": "Drex",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "commander": "2.19.0",
+    "handlebars": "4.0.12",
+    "inquirer": "6.2.1",
+    "log-symbols": "2.2.0",
+    "ora": "3.0.0",
+    "shelljs": "0.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:idrex/drex-cli.git"
+  },
+  "keywords": ["cli", "drex"]
+}
